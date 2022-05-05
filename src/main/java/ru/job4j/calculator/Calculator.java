@@ -19,7 +19,6 @@ Calculator.plus(10, 11);
     int fiveMinusTwo = five - two;
     int fourTimeTwo = four * two;
 
-    System.out.println(onePlusTwo);
     System.out.println(sixDivTwo);
     System.out.println(fiveMinusTwo);
     System.out.println(fourTimeTwo);
