@@ -11,7 +11,9 @@ public class ConverterTest {
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
+
     }
+
     @Test
     public void whenConvert140RblThen2dot3333Euro() {
     }
