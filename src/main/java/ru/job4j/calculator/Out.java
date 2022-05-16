@@ -2,12 +2,11 @@ package ru.job4j.calculator;
 
 public class Out {
     public static void main(String[] args) {
-       String lyrics = "Мама мыла раму мылом";
-       System.out.println(lyrics);
-       String name = "Petr";
-       String surname = "Arsentev";
+       String idea = "I like Java";
+       System.out.println(idea);
+       int year = 2022;
        String separate = " ";
-       String id = name + separate + surname;
+       String id = idea + " " + "But I am a newbie" + " " + year;
         System.out.println(id);
     }
 }
