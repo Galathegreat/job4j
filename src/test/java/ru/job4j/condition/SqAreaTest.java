@@ -7,7 +7,7 @@ public class SqAreaTest {
 
     @Test
     public void whenP6K2S2() {
-        int expected = -1;
+        int expected = 2;
         int p = 6;
         int k = 2;
         double out = SqArea.square(p, k);
