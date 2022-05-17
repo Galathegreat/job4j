@@ -2,10 +2,19 @@ package ru.job4j.calculator;
 
 public class Calculator {
     public static void main(String[] args) {
-        int sixDivTwo = 6 / 2;
-        int fiveMinusTwo = 5 - 2;
-        int fourTimeTwo = 4 * 2;
-        int sumAll = sixDivTwo + fiveMinusTwo + fourTimeTwo;
-        System.out.println(sumAll);
+        int six = 6;
+        int two = 2;
+        int sixDivTwo = six / two;
+        System.out.println(sixDivTwo);
+
+        int five = 5;
+        int two = 2;
+        int fiveMinusTwo = five - two;
+        System.out.println(fiveMinusTwo);
+
+        int four = 4;
+        int two = 2;
+        int fourTimeTwo = four * two;
+        System.out.println(fourTimeTwo);
     }
 }
