@@ -1,13 +1,11 @@
 package ru.job4j.calculator;
 
 public class Calculator {
-    public static int func1(int x) {
-        int y = x;
-        return y;
-    }
-
     public static void main(String[] args) {
-        int result3 = MathFunc.func1(100);
-        System.out.println(result3);
+        int sixDivTwo = 6 / 2;
+        int fiveMinusTwo = 5 - 2;
+        int fourTimeTwo = 4 * 2;
+        int sumAll = sixDivTwo + fiveMinusTwo + fourTimeTwo;
+        System.out.println(sumAll);
     }
 }
