@@ -14,7 +14,6 @@ public class ConverterTest {
         Assert.assertEquals(expected, out, eps);
 
     }
-
     @Test
     public void whenConvert140RblThen2dot3333Euro() {
     }
