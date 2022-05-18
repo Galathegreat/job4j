@@ -5,11 +5,11 @@ import org.junit.Test;
 
 public class DummyBotTest {
     @Test
-    public void whenGreenBot() {
+    public void whenGreetBot() {
         String in = "Привет, Бот";
         String result = DummyBot.answer(in);
         String expected = "Привет, умник.";
-        Assert.assertEquals(expected, result);
+        Assert.assertEquals(result, expected);
     }
 
     @Test
@@ -28,3 +28,4 @@ public class DummyBotTest {
         Assert.assertEquals(expected, result);
     }
 }
+
