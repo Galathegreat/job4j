@@ -11,6 +11,7 @@ public class Converter {
         return result;
     }
 
+
     public static void main(String[] args) {
 
         float euro = Converter.rubleToEuro(140);
