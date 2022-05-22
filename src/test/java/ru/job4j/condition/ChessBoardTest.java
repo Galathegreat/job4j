@@ -10,7 +10,7 @@ public class ChessBoardTest {
         int y1 = 7;
         int x2 = 1;
         int y2 = 2;
-        int result = ChessBoard.way(x1, y1, x2, y2);
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
         int expected = 5;
         Assert.assertEquals(expected, result);
     }
@@ -21,7 +21,7 @@ public class ChessBoardTest {
         int y1 = 0;
         int x2 = 0;
         int y2 = 7;
-        int result = ChessBoard.way(x1, y1, x2, y2);
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
         int expected = 7;
         Assert.assertEquals(expected, result);
     }
@@ -32,8 +32,8 @@ public class ChessBoardTest {
         int y1 = 6;
         int x2 = 4;
         int y2 = 1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 2;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 
@@ -43,8 +43,8 @@ public class ChessBoardTest {
         int y1 = 6;
         int x2 = 4;
         int y2 = 1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 5;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 
@@ -54,8 +54,8 @@ public class ChessBoardTest {
         int y1 = -1;
         int x2 = 4;
         int y2 = 1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 2;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 
@@ -65,8 +65,8 @@ public class ChessBoardTest {
         int y1 = 6;
         int x2 = -1;
         int y2 = 1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 3;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 
@@ -76,8 +76,8 @@ public class ChessBoardTest {
         int y1 = 6;
         int x2 = 4;
         int y2 = -1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 2;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 
@@ -87,8 +87,8 @@ public class ChessBoardTest {
         int y1 = 6;
         int x2 = 4;
         int y2 = 1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 6;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 
@@ -98,8 +98,8 @@ public class ChessBoardTest {
         int y1 = 10;
         int x2 = 4;
         int y2 = 1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 2;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 
@@ -109,8 +109,8 @@ public class ChessBoardTest {
         int y1 = 6;
         int x2 = 10;
         int y2 = 1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 8;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 
@@ -120,8 +120,8 @@ public class ChessBoardTest {
         int y1 = 6;
         int x2 = 4;
         int y2 = 10;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 2;
+        int result = ChessBoard.isValid(x1, y1, x2, y2);
+        int expected = 0;
         Assert.assertEquals(expected, result);
     }
 }
