@@ -4,12 +4,11 @@ public class Board {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if ((i + j) % 2 == 0) {
-                        System.out.print("X");
-                    } else {
-                        System.out.print(" ");
+                    System.out.print("X");
+                } else {
+                    System.out.print(" ");
                     }
                 }
-
                 System.out.println();
             }
         }
