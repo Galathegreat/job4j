@@ -14,7 +14,7 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumByEvenNumbersFromOneToTenThenThirty() {
+    public void whenSumByEvenNumbersFromThreeToEightThenEighteen() {
         int start = 3;
         int finish = 8;
         int result = Counter.sumByEven(start, finish);
