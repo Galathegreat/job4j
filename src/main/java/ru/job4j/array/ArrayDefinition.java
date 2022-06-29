@@ -12,5 +12,5 @@ public class ArrayDefinition {
         System.out.println("Размер массива равен: " + prices.length);
     }
 }
-}
+
 
