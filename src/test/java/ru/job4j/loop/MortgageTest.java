@@ -16,11 +16,11 @@ import org.junit.Test;
 
     @Test
     public void when2Year() {
-        int amount = 30;
+        int amount = 100;
         int salary = 120;
         double percent = 50;
         int result = Mortgage.year(amount, salary, percent);
-        int expected = 1;
+        int expected = 2;
         Assert.assertEquals(expected, result);
     }
 }
