@@ -20,7 +20,7 @@ import org.junit.Test;
         int salary = 120;
         double percent = 50;
         int result = Mortgage.year(amount, salary, percent);
-        int expected = 2;
+        int expected = 1;
         Assert.assertEquals(expected, result);
     }
 }
