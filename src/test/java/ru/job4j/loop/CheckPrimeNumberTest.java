@@ -19,9 +19,9 @@ public class CheckPrimeNumberTest {
     }
 
     @Test
-    public void when2() {
-        int number = 2;
+    public void when1() {
+        int number = 1;
         boolean result = CheckPrimeNumber.check(number);
-        Assert.assertTrue(result);
+        Assert.assertFalse(result);
     }
 }
