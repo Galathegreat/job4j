@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-public class EndWithTest {
+class EndWithTest {
 
     @Test
     public void whenEndWithPrefixThenTrue() {
