@@ -23,7 +23,6 @@ public class FindLoopTest {
         Assert.assertEquals(expected, result);
     }
 
-
     @Test
     public void whenDiapasonHas2Then3() {
         int[] data = new int[]{5, 2, 10, 2, 4};
