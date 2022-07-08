@@ -9,6 +9,7 @@ public class Matrix {
             }
         }
         return array;
+
     }
 }
 
