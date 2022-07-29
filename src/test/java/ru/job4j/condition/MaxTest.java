@@ -31,4 +31,24 @@ public class MaxTest {
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
+
+    @Test
+    public void whenA8B2C5Max8() {
+        int a = 3;
+        int b = 6;
+        int c = 2;
+        int result = Max.max(a, b, c);
+        int expected = 6;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void whenA8B8C8Max8() {
+        int a = 1;
+        int b = 4;
+        int c = 10;
+        int result = Max.max(a, b, c);
+        int expected = 10;
+        Assert.assertEquals(result, expected);
+    }
 }
