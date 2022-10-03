@@ -57,6 +57,7 @@ public class PointTest {
         double out = point1.distance3d(point2);
         Assert.assertEquals(expected, out, 0.01);
     }
+
     @Test
     public void when000to025then5dot39() {
         double expected = 5.39;
